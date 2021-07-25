@@ -21,6 +21,10 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/contact', function ($id) {
+    return view('contact');
+});
+
 Route::get('name', function () {
     return "this laravel framework";
 });
